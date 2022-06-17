@@ -11,7 +11,7 @@ import { file } from './lib/file.js';
         age: 87,
         isMarried: false,
     }
-    const createStatus = await file.create('users', 'maryte.json', user);
+    const createStatus = await file.create('users', 'kazkas.json', user);
     console.log('Create:', createStatus);
 
     const readStatus2 = await file.read('users', 'maryte.json');
